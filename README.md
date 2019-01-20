@@ -36,7 +36,7 @@ in a series of forward kinematic tasks for a three segmented arm (7 DoFs). The a
 * 2\_HierarchicalMMC\_BimanualTask - Simulation of the Hierarchical Dual-Quaternion-based MMC network as a body model.
 The task is a bimanual task - one arm is driven on the joint level (forward kinematics) and the other arm is expected to follow this movement (inverse kinematic task) - both arms should touch each other at the end effectors. The model is moved through all postures from above that are reachable to both arms (561 postures). Result is a plot showing distance between the end effectors of the left and right arm over time.
 Distance increased during the movement up to 0.113 units, but this difference is not very large as overall the mean distance between starting point and target point was 
-2.021 (S.D. $\pm0.672$) units.
+2.021 (S.D. 0.672) units.
 
 --
 ### MMC approach
